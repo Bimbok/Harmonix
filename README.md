@@ -4,6 +4,11 @@ A beautiful, feature-rich terminal music player with YouTube Music integration b
 
 ## ✨ New Features & Improvements
 
+### Demo
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/b743e371-708b-4eff-a740-ef3107612867" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/78fc88c8-8643-4ca5-9064-a95a0859be7b" />
+
 ### 🎨 UI/UX Enhancements
 - **Modern Design**: Complete UI redesign with color-coded sections
 - **Now Playing Card**: Dedicated card showing current song info (title, artist, album)
