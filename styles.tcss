@@ -1,0 +1,140 @@
+Screen {
+    layout: vertical;
+}
+
+Header {
+    dock: top;
+}
+
+Footer {
+    dock: bottom;
+}
+
+/* Main Content Area */
+#main_container {
+    layout: horizontal;
+    height: 1fr;
+    width: 100%;
+    /* Remove margin to maximize space */
+    margin: 0;
+}
+
+#left_pane {
+    width: 60%;
+    height: 100%;
+    border-right: solid $primary;
+    /* Use padding instead of margin */
+    padding: 0 1;
+}
+
+#right_pane {
+    width: 40%;
+    height: 100%;
+    padding: 0 1;
+    overflow-y: auto;
+}
+
+.pane_title {
+    text-align: center;
+    background: $primary;
+    color: $text;
+    text-style: bold;
+    margin-bottom: 1;
+}
+
+.section_title {
+    text-align: left;
+    color: $accent;
+    margin-top: 1;
+}
+
+/* Search Area */
+#search_container {
+    height: 3;
+    margin-bottom: 1;
+}
+
+#search_box {
+    width: 1fr;
+}
+
+#btn_search {
+    width: 6;
+    min-width: 4;
+}
+
+/* Results & Queue Tables */
+#results_table {
+    height: 1fr; /* Take available space */
+    min-height: 10;
+    border: solid $secondary;
+    margin-bottom: 1;
+}
+
+#queue_table {
+    height: 1fr; /* Take available space */
+    min-height: 10;
+    border: solid $secondary;
+}
+
+/* Lyrics */
+#lyrics_view {
+    padding: 1;
+    width: 100%;
+}
+
+/* Controls Section */
+#controls_container {
+    height: auto;
+    dock: bottom;
+    border-top: solid $primary;
+    padding: 1 2;
+    background: $surface;
+}
+
+#status_row {
+    height: 1;
+    margin-bottom: 1;
+    align-vertical: middle;
+}
+
+#status_bar {
+    width: 1fr;
+    color: $accent;
+}
+
+#time_label {
+    width: 20;
+    text-align: right;
+}
+
+#progress_bar {
+    width: 100%;
+    margin-bottom: 1;
+}
+
+#playback_buttons {
+    align: center middle;
+    height: 3;
+    margin-bottom: 1;
+}
+
+#mode_controls {
+    align: center middle;
+    height: 3;
+}
+
+Button {
+    min-width: 4;
+    margin: 0 1;
+}
+
+.vol_btn {
+    min-width: 3;
+    width: 3;
+}
+
+#vol_label {
+    content-align: center middle;
+    padding: 0 1;
+}
