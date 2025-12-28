@@ -1,4 +1,4 @@
-# 🎵 Modern TUI Music Player
+# 🎵 Modern TUI Music Player - Harmonix
 
 A beautiful, feature-rich terminal music player with YouTube Music integration built with Python, Textual, and MPV.
 
